@@ -1,35 +1,33 @@
 body {
-  margin: 0;
   font-family: 'Poppins', sans-serif;
-  background: linear-gradient(160deg, #c3f0f9, #e8caff);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
+  background: #f0f8ff;
+  text-align: center;
+  padding: 50px;
 }
 
-.app-container {
-  background: #fff;
-  padding: 20px;
+.container {
+  background: white;
+  padding: 30px;
   border-radius: 20px;
-  text-align: center;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  max-width: 400px;
+  margin: auto;
 }
 
 button {
-  display: block;
-  width: 100%;
-  padding: 12px;
-  margin: 10px 0;
-  border: none;
-  background: #6C63FF;
-  color: #fff;
+  background: #4e54c8;
+  color: white;
+  padding: 12px 20px;
   font-size: 16px;
+  border: none;
   border-radius: 12px;
   cursor: pointer;
-  transition: 0.2s ease;
 }
 
 button:hover {
-  background: #4e49d3;
+  background: #373fa3;
+}
+
+.hidden {
+  display: none;
 }

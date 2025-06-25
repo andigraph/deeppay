@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <title>WiFi DEEP NET</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Connect Wallet - DEEPPAY</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="app-container">
-    <h1>🌐 DEEP NET</h1>
-    <p>Halo, siap bayar WiFi hari ini?</p>
-    <button id="connect-wallet">🔗 Connect Wallet</button>
-    <button id="pay-btn">💸 Yok Bayar</button>
-    <button id="history-btn">📜 Cek Histori</button>
+  <div class="container">
+    <h1>🌐 DEEPPAY</h1>
+    <p>Sambungkan Wallet TON kamu untuk melanjutkan.</p>
+    <button id="connect-btn">🔗 Connect Wallet</button>
+    <p id="address" class="hidden"></p>
   </div>
-  <script src="https://unpkg.com/@tonconnect/sdk@latest/dist/tonconnect-sdk.min.js"></script>
-  <script src="script.js"></script>
+
+  <script src="https://unpkg.com/@tonconnect/sdk@latest"></script>
+  <script src="connect.js"></script>
 </body>
 </html>
