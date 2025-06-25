@@ -1,5 +1,5 @@
 const connector = new TonConnectSDK.TonConnect({
-  manifestUrl: 'https://yourdomain.com/tonconnect-manifest.json'
+  manifestUrl: 'https://deeppay.vercel.app/tonconnect-manifest.json'
 });
 
 connector.restoreConnection();
@@ -16,8 +16,8 @@ document.getElementById("connect-wallet").onclick = async () => {
 
 document.getElementById("pay-btn").onclick = async () => {
   const tx = {
-    to: "0:DEEP_NET_WALLET_ADDRESS",
-    value: "100000000",
+    to: "UQBqVBfmlC7BDqerZ3x_HZv4sgUFEJ21WafwSneyeBZZp4U3",
+    value: "1",
     message: "Bayar WiFi DeepNet"
   };
   try {
