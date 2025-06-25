@@ -1,7 +1,7 @@
 {
-  "url": "http://localhost:5500",
+  "url": "https://deeppay.vercel.app/",
   "name": "WiFi DEEP NET",
-  "iconUrl": "http://localhost:5500/assets/icon.png",
-  "termsOfUseUrl": "http://localhost:5500/terms.html",
-  "privacyPolicyUrl": "http://localhost:5500/privacy.html"
+  "iconUrl": "https://deeppay.vercel.app/icon.png",
+  "termsOfUseUrl": "https://deeppay.vercel.app/terms.html",
+  "privacyPolicyUrl": "https://deeppay.vercel.app/privacy.html"
 }
